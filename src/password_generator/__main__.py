@@ -25,7 +25,7 @@ def main():
         passwords.append(generate_secure_string(args.length, extra_chars=SYMBOLS if args.symbols else ""))
 
     if args.output_file:
-        with open(output_file, "w",  encoding="utf-8") as f:
+        with open(args.output_file, "w",  encoding="utf-8") as f:
             for password in passwords:
                 f.write(password + "\n")
             print(f"Passwords written to {args.output_file}")
