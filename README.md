@@ -1,6 +1,6 @@
 # password-generator
 
-A very simple password generator cli program written in python. Can output to a file, your clipboard, or stdout.
+A very simple password generator cli program written in python. Can output to a file or stdout and should work on a base python installation.
 
 ## Installation
 
