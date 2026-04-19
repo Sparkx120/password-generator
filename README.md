@@ -18,13 +18,13 @@ pip install .
 
 ## Usage
 
-Output a single secure password to the console with default length (16)
+Output a single secure password composed of text and numbers to the console with default length (16)
 
 ```bash
 password-generator
 ```
 
-Output 20 secure passwords of lenght 20 with symbols and text and numbers to a file called passwords.txt
+Output 20 secure passwords of length 20 composed of symbols, text, and numbers; to a file called passwords.txt
 
 ```bash
 password-generator --number 20 --length 20 --symbols --output-file passwords.txt
